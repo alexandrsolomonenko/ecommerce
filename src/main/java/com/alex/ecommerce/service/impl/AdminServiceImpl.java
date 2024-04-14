@@ -66,7 +66,7 @@ public class AdminServiceImpl implements AdminService {
         return null;
     }
 
-//    @Override
+//    @Override // TODO перед отправкой на проверку убедитесь в отсутсвии с TODO и закоментированного кода
 //    public Order getOrder(Long orderId) {
 //        return orderRepository.getById(orderId)
 //                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, ErrorMessage.ORDER_NOT_FOUND));
