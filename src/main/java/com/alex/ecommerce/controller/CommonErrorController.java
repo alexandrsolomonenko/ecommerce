@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-class CustomErrorController implements com.alex.ecommerce.configuration.CustomErrorController {
+class CustomErrorController implements com.alex.ecommerce.configuration.CustomErrorController { //TODO Плохая практика дават ьодинаковые имена. Добавьте Impl к имени класса
 
     @RequestMapping("/error")
     @Override

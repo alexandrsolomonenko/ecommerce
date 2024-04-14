@@ -13,6 +13,7 @@ import org.springframework.security.web.DefaultSecurityFilterChain;
 
 import java.util.Objects;
 
+// TODO устаревший подход, много deprecated
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
@@ -48,6 +49,7 @@ public class WebSecurityConfiguration extends SecurityConfigurerAdapter<DefaultS
                 .and().csrf().disable();
     }
 
+    // TODO сократите количество кода с помощью Lombok
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
